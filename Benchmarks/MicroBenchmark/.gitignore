@@ -1,0 +1,56 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+*.cflags
+*.config
+*.creator
+*.user
+*.cxxflags
+*.files
+*.includes
+
+*.user
+SVF.PIP/SVF.PIP.creator.user
+
+Ptr2Int/CPU2017/backup
+Ptr2Int/CPU2017/bc
+Ptr2Int/CPU2017/exe
+Ptr2Int/CPU2017/ll
+Ptr2Int/CPU2017/ll.comments
+Ptr2Int/CPU2017/no.mem2reg.bc
+Ptr2Int/CPU2017/no.mem2reg.ll
+Ptr2Int/CPU2017/wpa.p2i
+
+Benchmarks/CPU2006/
+
+

@@ -1,0 +1,385 @@
+
+*********CallGraph Stats***************
+################ (program : multiple_v0_nv1_10_8.bc)###############
+-------------------------------------------------------
+TotalNode           12		CallGraph Stats
+TotalEdge           16		CallGraph Stats
+TotalCycle          0		CallGraph Stats
+MaxNodeInCycle      0		CallGraph Stats
+NodeInCycle         0		CallGraph Stats
+CalRetPairInCycle   0		CallGraph Stats
+#######################################################
+
+*********General Stats***************
+################ (program : multiple_v0_nv1_10_8.bc)###############
+BBWith2Succ         1		General Stats
+BBWith3Succ         0		General Stats
+TotalPointers       197		General Stats
+TotalObjects        36		General Stats
+TotalFieldObjects   9		General Stats
+MaxStructSize       3		General Stats
+TotalSVFStmts       158		General Stats
+TotalPTASVFStmts    147		General Stats
+FIObjNum            12		General Stats
+FSObjNum            23		General Stats
+AddrsNum            34		General Stats
+LoadsNum            20		General Stats
+StoresNum           18		General Stats
+CopysNum            16		General Stats
+GepsNum             38		General Stats
+CallsNum            24		General Stats
+ReturnsNum          0		General Stats
+FunctionObjs        12		General Stats
+GlobalObjs          0		General Stats
+HeapObjs            1		General Stats
+StackObjs           10		General Stats
+VarStructObj        10		General Stats
+VarArrayObj         0		General Stats
+ConstStructObj      0		General Stats
+ConstArrayObj       0		General Stats
+NonPtrObj           0		General Stats
+ConstantObj         12		General Stats
+IndCallSites        1		General Stats
+TotalCallSite       9		General Stats
+-------------------------------------------------------
+LLVMIRTime          0.002		General Stats
+SymbolTableTime     0		General Stats
+SVFIRTime           0.001		General Stats
+#######################################################
+
+*********Constraint Graph Stats***************
+################ (program : multiple_v0_nv1_10_8.bc)###############
+-------------------------------------------------------
+AvgIn/OutCopyEdge   0.798658		Constraint Graph Stats
+AvgIn/OutLoadEdge   0.134228		Constraint Graph Stats
+AvgIn/OutAddrEdge   0.174497		Constraint Graph Stats
+AvgIn/OutEdge       1.22819		Constraint Graph Stats
+LocalVarInRecur     0		Constraint Graph Stats
+NumOfCGNode         256		Constraint Graph Stats
+TotalValidNode      149		Constraint Graph Stats
+TotalValidObjNode   35		Constraint Graph Stats
+NumOfCGEdge         157		Constraint Graph Stats
+NumOfAddrs          26		Constraint Graph Stats
+NumOfCopys          81		Constraint Graph Stats
+NumOfGeps           38		Constraint Graph Stats
+NumOfLoads          20		Constraint Graph Stats
+NumOfStores         18		Constraint Graph Stats
+MaxInCopyEdge       8		Constraint Graph Stats
+MaxOutCopyEdge      9		Constraint Graph Stats
+MaxInLoadEdge       1		Constraint Graph Stats
+MaxOutLoadEdge      1		Constraint Graph Stats
+MaxInStoreEdge      1		Constraint Graph Stats
+MaxOutStoreEdge     8		Constraint Graph Stats
+AvgIn/OutStoreEdge  0		Constraint Graph Stats
+MaxInAddrEdge       1		Constraint Graph Stats
+MaxOutAddrEdge      1		Constraint Graph Stats
+#######################################################
+
+*********Andersen Pointer Analysis Stats***************
+################ (program : multiple_v0_nv1_10_8.bc)###############
+-------------------------------------------------------
+TotalTime           0.001		Andersen Pointer Analysis Stats
+SCCDetectTime       0		Andersen Pointer Analysis Stats
+SCCMergeTime        0		Andersen Pointer Analysis Stats
+LoadStoreTime       0		Andersen Pointer Analysis Stats
+CopyGepTime         0		Andersen Pointer Analysis Stats
+UpdateCGTime        0		Andersen Pointer Analysis Stats
+AvgPtsSetSize       0.621094		Andersen Pointer Analysis Stats
+AvgTopLvlPtsSize    1.15517		Andersen Pointer Analysis Stats
+CollapseTime        0		Andersen Pointer Analysis Stats
+Pointers            197		Andersen Pointer Analysis Stats
+TotalPointers       197		Andersen Pointer Analysis Stats
+TotalObjects        45		Andersen Pointer Analysis Stats
+IndCallSites        1		Andersen Pointer Analysis Stats
+AddrProcessed       26		Andersen Pointer Analysis Stats
+CopyProcessed       75		Andersen Pointer Analysis Stats
+GepProcessed        37		Andersen Pointer Analysis Stats
+LoadProcessed       19		Andersen Pointer Analysis Stats
+StoreProcessed      18		Andersen Pointer Analysis Stats
+NumOfSFRs           0		Andersen Pointer Analysis Stats
+NumOfFieldExpand    0		Andersen Pointer Analysis Stats
+MemObjects          36		Andersen Pointer Analysis Stats
+DummyFieldPtrs      0		Andersen Pointer Analysis Stats
+FieldObjs           9		Andersen Pointer Analysis Stats
+MaxPtsSetSize       8		Andersen Pointer Analysis Stats
+SolveIterations     4		Andersen Pointer Analysis Stats
+IndEdgeSolved       8		Andersen Pointer Analysis Stats
+NumOfSCCDetect      4		Andersen Pointer Analysis Stats
+TotalCycleNum       0		Andersen Pointer Analysis Stats
+TotalPWCCycleNum    0		Andersen Pointer Analysis Stats
+NodesInCycles       0		Andersen Pointer Analysis Stats
+MaxNodesInSCC       0		Andersen Pointer Analysis Stats
+NullPointer         1		Andersen Pointer Analysis Stats
+PointsToConstPtr    0		Andersen Pointer Analysis Stats
+PointsToBlkPtr      0		Andersen Pointer Analysis Stats
+#######################################################
+
+****Persistent Points-To Cache Statistics: Andersen's analysis bitvector****
+################ (program : multiple_v0_nv1_10_8.bc)###############
+UniquePointsToSets       43
+TotalUnions              160
+PropertyUnions           139
+UniqueUnions             7
+LookupUnions             0
+PreemptiveUnions         14
+TotalComplements         1015
+PropertyComplements      1015
+UniqueComplements        0
+LookupComplements        0
+PreemptiveComplements    0
+TotalIntersections       45
+PropertyIntersections    45
+UniqueIntersections      0
+LookupIntersections      0
+PreemptiveIntersections  0
+#######################################################
+
+*********Memory SSA Statistics***************
+################ (program : multiple_v0_nv1_10_8.bc)###############
+-------------------------------------------------------
+AverageRegSize      1		Memory SSA Statistics
+SSARenameTime       0		Memory SSA Statistics
+InsertPHITime       0		Memory SSA Statistics
+GenMUCHITime        0.001		Memory SSA Statistics
+GenRegionTime       0		Memory SSA Statistics
+TotalMSSATime       0.001		Memory SSA Statistics
+BBHasMSSAPhi        0		Memory SSA Statistics
+MSSAPhi             0		Memory SSA Statistics
+StoreHasChi         18		Memory SSA Statistics
+LoadHasMu           20		Memory SSA Statistics
+CSHasMu             8		Memory SSA Statistics
+CSHasChi            0		Memory SSA Statistics
+FunHasRetMu         10		Memory SSA Statistics
+FunHasEntryChi      2		Memory SSA Statistics
+StoreChiNode        18		Memory SSA Statistics
+LoadMuNode          19		Memory SSA Statistics
+CSMuNode            8		Memory SSA Statistics
+CSChiNode           0		Memory SSA Statistics
+FunRetMu            20		Memory SSA Statistics
+FunEntryChi         20		Memory SSA Statistics
+MemRegions          19		Memory SSA Statistics
+MaxRegSize          1		Memory SSA Statistics
+#######################################################
+
+*********SVFG Statistics***************
+################ (program : multiple_v0_nv1_10_8.bc)###############
+-------------------------------------------------------
+TotalTime           0		SVFG Statistics
+ConnDirEdgeTime     0		SVFG Statistics
+ConnIndEdgeTime     0		SVFG Statistics
+TLNodeTime          0		SVFG Statistics
+ATNodeTime          0		SVFG Statistics
+OptTime             0		SVFG Statistics
+AvgWeight           1		SVFG Statistics
+TotalNode           209		SVFG Statistics
+FormalIn            20		SVFG Statistics
+FormalOut           20		SVFG Statistics
+FormalParam         11		SVFG Statistics
+FormalRet           1		SVFG Statistics
+ActualIn            8		SVFG Statistics
+ActualOut           0		SVFG Statistics
+ActualParam         25		SVFG Statistics
+ActualRet           0		SVFG Statistics
+Addr                26		SVFG Statistics
+Copy                16		SVFG Statistics
+Gep                 38		SVFG Statistics
+PHI                 2		SVFG Statistics
+TotalEdge           240		SVFG Statistics
+DirectEdge          167		SVFG Statistics
+IndirectEdge        73		SVFG Statistics
+IndirectEdgeLabels  73		SVFG Statistics
+IndCallEdge         8		SVFG Statistics
+IndRetEdge          0		SVFG Statistics
+DirectCallEdge      24		SVFG Statistics
+DirectRetEdge       0		SVFG Statistics
+AvgInDegree         1		SVFG Statistics
+AvgOutDegree        1		SVFG Statistics
+MaxInDegree         8		SVFG Statistics
+MaxOutDegree        9		SVFG Statistics
+AvgIndInDeg         1		SVFG Statistics
+AvgIndOutDeg        1		SVFG Statistics
+MaxIndInDeg         8		SVFG Statistics
+MaxIndOutDeg        9		SVFG Statistics
+MSSAPhi             0		SVFG Statistics
+Load                20		SVFG Statistics
+Store               18		SVFG Statistics
+#######################################################
+
+*********Memory SSA Statistics***************
+################ (program : multiple_v0_nv1_10_8.bc)###############
+-------------------------------------------------------
+AverageRegSize      1		Memory SSA Statistics
+SSARenameTime       0		Memory SSA Statistics
+InsertPHITime       0		Memory SSA Statistics
+GenMUCHITime        0.001		Memory SSA Statistics
+GenRegionTime       0		Memory SSA Statistics
+TotalMSSATime       0.001		Memory SSA Statistics
+BBHasMSSAPhi        0		Memory SSA Statistics
+MSSAPhi             0		Memory SSA Statistics
+StoreHasChi         18		Memory SSA Statistics
+LoadHasMu           20		Memory SSA Statistics
+CSHasMu             8		Memory SSA Statistics
+CSHasChi            0		Memory SSA Statistics
+FunHasRetMu         10		Memory SSA Statistics
+FunHasEntryChi      2		Memory SSA Statistics
+StoreChiNode        18		Memory SSA Statistics
+LoadMuNode          19		Memory SSA Statistics
+CSMuNode            8		Memory SSA Statistics
+CSChiNode           0		Memory SSA Statistics
+FunRetMu            20		Memory SSA Statistics
+FunEntryChi         20		Memory SSA Statistics
+MemRegions          19		Memory SSA Statistics
+MaxRegSize          1		Memory SSA Statistics
+#######################################################
+
+*********SVFG Statistics***************
+################ (program : multiple_v0_nv1_10_8.bc)###############
+-------------------------------------------------------
+TotalTime           0		SVFG Statistics
+ConnDirEdgeTime     0		SVFG Statistics
+ConnIndEdgeTime     0		SVFG Statistics
+TLNodeTime          0		SVFG Statistics
+ATNodeTime          0		SVFG Statistics
+OptTime             0		SVFG Statistics
+AvgWeight           1		SVFG Statistics
+TotalNode           209		SVFG Statistics
+FormalIn            20		SVFG Statistics
+FormalOut           20		SVFG Statistics
+FormalParam         11		SVFG Statistics
+FormalRet           1		SVFG Statistics
+ActualIn            8		SVFG Statistics
+ActualOut           0		SVFG Statistics
+ActualParam         25		SVFG Statistics
+ActualRet           0		SVFG Statistics
+Addr                26		SVFG Statistics
+Copy                16		SVFG Statistics
+Gep                 38		SVFG Statistics
+PHI                 2		SVFG Statistics
+TotalEdge           240		SVFG Statistics
+DirectEdge          167		SVFG Statistics
+IndirectEdge        73		SVFG Statistics
+IndirectEdgeLabels  73		SVFG Statistics
+IndCallEdge         8		SVFG Statistics
+IndRetEdge          0		SVFG Statistics
+DirectCallEdge      24		SVFG Statistics
+DirectRetEdge       0		SVFG Statistics
+AvgInDegree         1		SVFG Statistics
+AvgOutDegree        1		SVFG Statistics
+MaxInDegree         8		SVFG Statistics
+MaxOutDegree        9		SVFG Statistics
+AvgIndInDeg         1		SVFG Statistics
+AvgIndOutDeg        1		SVFG Statistics
+MaxIndInDeg         8		SVFG Statistics
+MaxIndOutDeg        9		SVFG Statistics
+MSSAPhi             0		SVFG Statistics
+Load                20		SVFG Statistics
+Store               18		SVFG Statistics
+#######################################################
+
+*********CallGraph Stats***************
+################ (program : multiple_v0_nv1_10_8.bc)###############
+-------------------------------------------------------
+TotalNode           12		CallGraph Stats
+TotalEdge           16		CallGraph Stats
+TotalCycle          0		CallGraph Stats
+MaxNodeInCycle      0		CallGraph Stats
+NodeInCycle         0		CallGraph Stats
+CalRetPairInCycle   0		CallGraph Stats
+#######################################################
+
+*********SVFG SCC Stat***************
+################ (program : multiple_v0_nv1_10_8.bc)###############
+-------------------------------------------------------
+TotalNode           209		SVFG SCC Stat
+TotalEdge           248		SVFG SCC Stat
+TotalCycle          0		SVFG SCC Stat
+MaxNodeInCycle      0		SVFG SCC Stat
+NodeInCycle         0		SVFG SCC Stat
+TotalDirEdge        175		SVFG SCC Stat
+DirEdgeInCycle      0		SVFG SCC Stat
+TotalIndEdge        73		SVFG SCC Stat
+IndEdgeInCycle      0		SVFG SCC Stat
+EdgeInCycle         0		SVFG SCC Stat
+TotalCallEdge       40		SVFG SCC Stat
+CallEdgeInCycle     0		SVFG SCC Stat
+InsenCallEdge       0		SVFG SCC Stat
+TotalRetEdge        0		SVFG SCC Stat
+RetEdgeInCycle      0		SVFG SCC Stat
+InsenRetEdge        0		SVFG SCC Stat
+#######################################################
+
+*********Demand-Driven Pointer Analysis Statistics***************
+################ (program : multiple_v0_nv1_10_8.bc)###############
+-------------------------------------------------------
+TotalQueryTime      0.001		Demand-Driven Pointer Analysis Statistics
+AvgTimePerQuery     0.001		Demand-Driven Pointer Analysis Statistics
+TotalBKCondTime     0		Demand-Driven Pointer Analysis Statistics
+AvgDPMAtLoc         1		Demand-Driven Pointer Analysis Statistics
+AvgCPtsSize         8		Demand-Driven Pointer Analysis Statistics
+AvgPtsSize          8		Demand-Driven Pointer Analysis Statistics
+IndEdgeSolved       8		Demand-Driven Pointer Analysis Statistics
+PointsToConstPtr    0		Demand-Driven Pointer Analysis Statistics
+PointsToBlkPtr      0		Demand-Driven Pointer Analysis Statistics
+NumOfQuery          1		Demand-Driven Pointer Analysis Statistics
+NumOfOOBQuery       0		Demand-Driven Pointer Analysis Statistics
+NumOfDPM            698		Demand-Driven Pointer Analysis Statistics
+NumOfSU             18		Demand-Driven Pointer Analysis Statistics
+NumOfStoreSU        18		Demand-Driven Pointer Analysis Statistics
+NumOfStep           296		Demand-Driven Pointer Analysis Statistics
+NumOfStepInCycle    149		Demand-Driven Pointer Analysis Statistics
+MaxDPMAtLoc         1		Demand-Driven Pointer Analysis Statistics
+MaxPathPerQuery     0		Demand-Driven Pointer Analysis Statistics
+MaxCxtPerQuery      0		Demand-Driven Pointer Analysis Statistics
+MaxCPtsSize         8		Demand-Driven Pointer Analysis Statistics
+MaxPtsSize          8		Demand-Driven Pointer Analysis Statistics
+NumOfNullPtr        0		Demand-Driven Pointer Analysis Statistics
+NumOfMustAA         0		Demand-Driven Pointer Analysis Statistics
+NumOfInfePath       0		Demand-Driven Pointer Analysis Statistics
+NumOfStore          18		Demand-Driven Pointer Analysis Statistics
+MemoryUsageVmrss    324		Demand-Driven Pointer Analysis Statistics
+MemoryUsageVmsize   296		Demand-Driven Pointer Analysis Statistics
+#######################################################
+
+
+
+#NumberOfFuncs# 8 ......................
+
+##<ValVar ID: 49
+   %9 = phi void (%class.DD*)* [ %memptr.virtualfn, %memptr.virtual ], [ %memptr.nonvirtualfn, %memptr.nonvirtual ], !dbg !75 { "ln": 55, "cl": 4, "fl": "./MicroBenchmark/multiple_v0_nv1/multiple_v0_nv1_10_8.cpp" at Function { "ln": 54, "file": "./MicroBenchmark/multiple_v0_nv1/multiple_v0_nv1_10_8.cpp" } }> Source Loc: { "ln": 55, "cl": 4, "fl": "./MicroBenchmark/multiple_v0_nv1/multiple_v0_nv1_10_8.cpp" at Function { "ln": 54, "file": "./MicroBenchmark/multiple_v0_nv1/multiple_v0_nv1_10_8.cpp" } }#NumberOfFuncs# 8
+
+Ptr 49 		PointsTo: { 82 98 114 130 146 162 178 194 }
+
+!!Target NodeID 82	 [<_ZN2DD14ff_nv_00000000Ev> Source Loc: FIObjVar ID: 82 (base object)
+Function: 				_ZN2DD14ff_nv_00000000Ev
+	          DD::ff_nv_00000000() { "ln": 40, "file": "./MicroBenchmark/multiple_v0_nv1/multiple_v0_nv1_10_8.cpp" }] 
+
+!!Target NodeID 98	 [<_ZN2DD14ff_nv_00000001Ev> Source Loc: FIObjVar ID: 98 (base object)
+Function: 				_ZN2DD14ff_nv_00000001Ev
+	          DD::ff_nv_00000001() { "ln": 41, "file": "./MicroBenchmark/multiple_v0_nv1/multiple_v0_nv1_10_8.cpp" }] 
+
+!!Target NodeID 114	 [<_ZN2DD14ff_nv_00000002Ev> Source Loc: FIObjVar ID: 114 (base object)
+Function: 				_ZN2DD14ff_nv_00000002Ev
+	          DD::ff_nv_00000002() { "ln": 42, "file": "./MicroBenchmark/multiple_v0_nv1/multiple_v0_nv1_10_8.cpp" }] 
+
+!!Target NodeID 130	 [<_ZN2DD14ff_nv_00000003Ev> Source Loc: FIObjVar ID: 130 (base object)
+Function: 				_ZN2DD14ff_nv_00000003Ev
+	          DD::ff_nv_00000003() { "ln": 43, "file": "./MicroBenchmark/multiple_v0_nv1/multiple_v0_nv1_10_8.cpp" }] 
+
+!!Target NodeID 146	 [<_ZN2DD14ff_nv_00000004Ev> Source Loc: FIObjVar ID: 146 (base object)
+Function: 				_ZN2DD14ff_nv_00000004Ev
+	          DD::ff_nv_00000004() { "ln": 44, "file": "./MicroBenchmark/multiple_v0_nv1/multiple_v0_nv1_10_8.cpp" }] 
+
+!!Target NodeID 162	 [<_ZN2DD14ff_nv_00000005Ev> Source Loc: FIObjVar ID: 162 (base object)
+Function: 				_ZN2DD14ff_nv_00000005Ev
+	          DD::ff_nv_00000005() { "ln": 45, "file": "./MicroBenchmark/multiple_v0_nv1/multiple_v0_nv1_10_8.cpp" }] 
+
+!!Target NodeID 178	 [<_ZN2DD14ff_nv_00000006Ev> Source Loc: FIObjVar ID: 178 (base object)
+Function: 				_ZN2DD14ff_nv_00000006Ev
+	          DD::ff_nv_00000006() { "ln": 46, "file": "./MicroBenchmark/multiple_v0_nv1/multiple_v0_nv1_10_8.cpp" }] 
+
+!!Target NodeID 194	 [<_ZN2DD14ff_nv_00000007Ev> Source Loc: FIObjVar ID: 194 (base object)
+Function: 				_ZN2DD14ff_nv_00000007Ev
+	          DD::ff_nv_00000007() { "ln": 47, "file": "./MicroBenchmark/multiple_v0_nv1/multiple_v0_nv1_10_8.cpp" }] 
+
+0.01user 0.00system 0:00.01elapsed 100%CPU (0avgtext+0avgdata 16872maxresident)k
+0inputs+0outputs (0major+1110minor)pagefaults 0swaps

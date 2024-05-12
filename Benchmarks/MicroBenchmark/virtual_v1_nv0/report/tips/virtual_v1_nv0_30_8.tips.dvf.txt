@@ -1,0 +1,385 @@
+
+*********CallGraph Stats***************
+################ (program : virtual_v1_nv0_30_8.bc)###############
+-------------------------------------------------------
+TotalNode           213		CallGraph Stats
+TotalEdge           58		CallGraph Stats
+TotalCycle          0		CallGraph Stats
+MaxNodeInCycle      0		CallGraph Stats
+NodeInCycle         0		CallGraph Stats
+CalRetPairInCycle   0		CallGraph Stats
+#######################################################
+
+*********General Stats***************
+################ (program : virtual_v1_nv0_30_8.bc)###############
+BBWith2Succ         1		General Stats
+BBWith3Succ         0		General Stats
+TotalPointers       1532		General Stats
+TotalObjects        289		General Stats
+TotalFieldObjects   449		General Stats
+MaxStructSize       8		General Stats
+TotalSVFStmts       1844		General Stats
+TotalPTASVFStmts    1833		General Stats
+FIObjNum            49		General Stats
+FSObjNum            239		General Stats
+AddrsNum            287		General Stats
+LoadsNum            52		General Stats
+StoresNum           489		General Stats
+CopysNum            360		General Stats
+GepsNum             580		General Stats
+CallsNum            68		General Stats
+ReturnsNum          0		General Stats
+FunctionObjs        213		General Stats
+GlobalObjs          15		General Stats
+HeapObjs            1		General Stats
+StackObjs           10		General Stats
+VarStructObj        10		General Stats
+VarArrayObj         4		General Stats
+ConstStructObj      8		General Stats
+ConstArrayObj       1		General Stats
+NonPtrObj           0		General Stats
+ConstantObj         53		General Stats
+IndCallSites        1		General Stats
+TotalCallSite       51		General Stats
+-------------------------------------------------------
+LLVMIRTime          0.006		General Stats
+SymbolTableTime     0.001		General Stats
+SVFIRTime           0.006		General Stats
+#######################################################
+
+*********Constraint Graph Stats***************
+################ (program : virtual_v1_nv0_30_8.bc)###############
+-------------------------------------------------------
+AvgIn/OutCopyEdge   0.73031		Constraint Graph Stats
+AvgIn/OutLoadEdge   0.024821		Constraint Graph Stats
+AvgIn/OutAddrEdge   0.133174		Constraint Graph Stats
+AvgIn/OutEdge       1.12172		Constraint Graph Stats
+LocalVarInRecur     0		Constraint Graph Stats
+NumOfCGNode         2935		Constraint Graph Stats
+TotalValidNode      2095		Constraint Graph Stats
+TotalValidObjNode   728		Constraint Graph Stats
+NumOfCGEdge         2071		Constraint Graph Stats
+NumOfAddrs          279		Constraint Graph Stats
+NumOfCopys          950		Constraint Graph Stats
+NumOfGeps           580		Constraint Graph Stats
+NumOfLoads          52		Constraint Graph Stats
+NumOfStores         489		Constraint Graph Stats
+MaxInCopyEdge       16		Constraint Graph Stats
+MaxOutCopyEdge      202		Constraint Graph Stats
+MaxInLoadEdge       1		Constraint Graph Stats
+MaxOutLoadEdge      1		Constraint Graph Stats
+MaxInStoreEdge      1		Constraint Graph Stats
+MaxOutStoreEdge     90		Constraint Graph Stats
+AvgIn/OutStoreEdge  0		Constraint Graph Stats
+MaxInAddrEdge       1		Constraint Graph Stats
+MaxOutAddrEdge      1		Constraint Graph Stats
+#######################################################
+
+*********Andersen Pointer Analysis Stats***************
+################ (program : virtual_v1_nv0_30_8.bc)###############
+-------------------------------------------------------
+TotalTime           0.007		Andersen Pointer Analysis Stats
+SCCDetectTime       0		Andersen Pointer Analysis Stats
+SCCMergeTime        0		Andersen Pointer Analysis Stats
+LoadStoreTime       0		Andersen Pointer Analysis Stats
+CopyGepTime         0		Andersen Pointer Analysis Stats
+UpdateCGTime        0		Andersen Pointer Analysis Stats
+AvgPtsSetSize       0.570017		Andersen Pointer Analysis Stats
+AvgTopLvlPtsSize    0.800671		Andersen Pointer Analysis Stats
+CollapseTime        0		Andersen Pointer Analysis Stats
+Pointers            1519		Andersen Pointer Analysis Stats
+TotalPointers       1532		Andersen Pointer Analysis Stats
+TotalObjects        738		Andersen Pointer Analysis Stats
+IndCallSites        1		Andersen Pointer Analysis Stats
+AddrProcessed       279		Andersen Pointer Analysis Stats
+CopyProcessed       812		Andersen Pointer Analysis Stats
+GepProcessed        530		Andersen Pointer Analysis Stats
+LoadProcessed       45		Andersen Pointer Analysis Stats
+StoreProcessed      473		Andersen Pointer Analysis Stats
+NumOfSFRs           0		Andersen Pointer Analysis Stats
+NumOfFieldExpand    0		Andersen Pointer Analysis Stats
+MemObjects          289		Andersen Pointer Analysis Stats
+DummyFieldPtrs      13		Andersen Pointer Analysis Stats
+FieldObjs           449		Andersen Pointer Analysis Stats
+MaxPtsSetSize       16		Andersen Pointer Analysis Stats
+SolveIterations     7		Andersen Pointer Analysis Stats
+IndEdgeSolved       8		Andersen Pointer Analysis Stats
+NumOfSCCDetect      7		Andersen Pointer Analysis Stats
+TotalCycleNum       0		Andersen Pointer Analysis Stats
+TotalPWCCycleNum    0		Andersen Pointer Analysis Stats
+NodesInCycles       0		Andersen Pointer Analysis Stats
+MaxNodesInSCC       0		Andersen Pointer Analysis Stats
+NullPointer         24		Andersen Pointer Analysis Stats
+PointsToConstPtr    0		Andersen Pointer Analysis Stats
+PointsToBlkPtr      0		Andersen Pointer Analysis Stats
+#######################################################
+
+****Persistent Points-To Cache Statistics: Andersen's analysis bitvector****
+################ (program : virtual_v1_nv0_30_8.bc)###############
+UniquePointsToSets       768
+TotalUnions              1787
+PropertyUnions           1706
+UniqueUnions             27
+LookupUnions             0
+PreemptiveUnions         54
+TotalComplements         20128
+PropertyComplements      20095
+UniqueComplements        17
+LookupComplements        0
+PreemptiveComplements    16
+TotalIntersections       558
+PropertyIntersections    524
+UniqueIntersections      2
+LookupIntersections      0
+PreemptiveIntersections  32
+#######################################################
+
+*********Memory SSA Statistics***************
+################ (program : virtual_v1_nv0_30_8.bc)###############
+-------------------------------------------------------
+AverageRegSize      1.96774		Memory SSA Statistics
+SSARenameTime       0		Memory SSA Statistics
+InsertPHITime       0		Memory SSA Statistics
+GenMUCHITime        0		Memory SSA Statistics
+GenRegionTime       0		Memory SSA Statistics
+TotalMSSATime       0.002		Memory SSA Statistics
+BBHasMSSAPhi        0		Memory SSA Statistics
+MSSAPhi             0		Memory SSA Statistics
+StoreHasChi         26		Memory SSA Statistics
+LoadHasMu           52		Memory SSA Statistics
+CSHasMu             12		Memory SSA Statistics
+CSHasChi            4		Memory SSA Statistics
+FunHasRetMu         211		Memory SSA Statistics
+FunHasEntryChi      6		Memory SSA Statistics
+StoreChiNode        26		Memory SSA Statistics
+LoadMuNode          28		Memory SSA Statistics
+CSMuNode            27		Memory SSA Statistics
+CSChiNode           8		Memory SSA Statistics
+FunRetMu            41		Memory SSA Statistics
+FunEntryChi         41		Memory SSA Statistics
+MemRegions          31		Memory SSA Statistics
+MaxRegSize          16		Memory SSA Statistics
+#######################################################
+
+*********SVFG Statistics***************
+################ (program : virtual_v1_nv0_30_8.bc)###############
+-------------------------------------------------------
+TotalTime           0		SVFG Statistics
+ConnDirEdgeTime     0		SVFG Statistics
+ConnIndEdgeTime     0		SVFG Statistics
+TLNodeTime          0		SVFG Statistics
+ATNodeTime          0		SVFG Statistics
+OptTime             0		SVFG Statistics
+AvgWeight           2.73656		SVFG Statistics
+TotalNode           2167		SVFG Statistics
+FormalIn            41		SVFG Statistics
+FormalOut           41		SVFG Statistics
+FormalParam         214		SVFG Statistics
+FormalRet           1		SVFG Statistics
+ActualIn            27		SVFG Statistics
+ActualOut           8		SVFG Statistics
+ActualParam         69		SVFG Statistics
+ActualRet           0		SVFG Statistics
+Addr                279		SVFG Statistics
+Copy                360		SVFG Statistics
+Gep                 580		SVFG Statistics
+PHI                 2		SVFG Statistics
+TotalEdge           2315		SVFG Statistics
+DirectEdge          2129		SVFG Statistics
+IndirectEdge        186		SVFG Statistics
+IndirectEdgeLabels  509		SVFG Statistics
+IndCallEdge         32		SVFG Statistics
+IndRetEdge          8		SVFG Statistics
+DirectCallEdge      68		SVFG Statistics
+DirectRetEdge       0		SVFG Statistics
+AvgInDegree         1		SVFG Statistics
+AvgOutDegree        1		SVFG Statistics
+MaxInDegree         16		SVFG Statistics
+MaxOutDegree        202		SVFG Statistics
+AvgIndInDeg         1		SVFG Statistics
+AvgIndOutDeg        1		SVFG Statistics
+MaxIndInDeg         16		SVFG Statistics
+MaxIndOutDeg        9		SVFG Statistics
+MSSAPhi             0		SVFG Statistics
+Load                52		SVFG Statistics
+Store               489		SVFG Statistics
+#######################################################
+
+*********Memory SSA Statistics***************
+################ (program : virtual_v1_nv0_30_8.bc)###############
+-------------------------------------------------------
+AverageRegSize      1.96774		Memory SSA Statistics
+SSARenameTime       0		Memory SSA Statistics
+InsertPHITime       0		Memory SSA Statistics
+GenMUCHITime        0		Memory SSA Statistics
+GenRegionTime       0.001		Memory SSA Statistics
+TotalMSSATime       0.002		Memory SSA Statistics
+BBHasMSSAPhi        0		Memory SSA Statistics
+MSSAPhi             0		Memory SSA Statistics
+StoreHasChi         26		Memory SSA Statistics
+LoadHasMu           52		Memory SSA Statistics
+CSHasMu             12		Memory SSA Statistics
+CSHasChi            4		Memory SSA Statistics
+FunHasRetMu         211		Memory SSA Statistics
+FunHasEntryChi      6		Memory SSA Statistics
+StoreChiNode        26		Memory SSA Statistics
+LoadMuNode          28		Memory SSA Statistics
+CSMuNode            27		Memory SSA Statistics
+CSChiNode           8		Memory SSA Statistics
+FunRetMu            41		Memory SSA Statistics
+FunEntryChi         41		Memory SSA Statistics
+MemRegions          31		Memory SSA Statistics
+MaxRegSize          16		Memory SSA Statistics
+#######################################################
+
+*********SVFG Statistics***************
+################ (program : virtual_v1_nv0_30_8.bc)###############
+-------------------------------------------------------
+TotalTime           0.001		SVFG Statistics
+ConnDirEdgeTime     0		SVFG Statistics
+ConnIndEdgeTime     0.001		SVFG Statistics
+TLNodeTime          0		SVFG Statistics
+ATNodeTime          0		SVFG Statistics
+OptTime             0		SVFG Statistics
+AvgWeight           2.73656		SVFG Statistics
+TotalNode           2167		SVFG Statistics
+FormalIn            41		SVFG Statistics
+FormalOut           41		SVFG Statistics
+FormalParam         214		SVFG Statistics
+FormalRet           1		SVFG Statistics
+ActualIn            27		SVFG Statistics
+ActualOut           8		SVFG Statistics
+ActualParam         69		SVFG Statistics
+ActualRet           0		SVFG Statistics
+Addr                279		SVFG Statistics
+Copy                360		SVFG Statistics
+Gep                 580		SVFG Statistics
+PHI                 2		SVFG Statistics
+TotalEdge           2315		SVFG Statistics
+DirectEdge          2129		SVFG Statistics
+IndirectEdge        186		SVFG Statistics
+IndirectEdgeLabels  509		SVFG Statistics
+IndCallEdge         32		SVFG Statistics
+IndRetEdge          8		SVFG Statistics
+DirectCallEdge      68		SVFG Statistics
+DirectRetEdge       0		SVFG Statistics
+AvgInDegree         1		SVFG Statistics
+AvgOutDegree        1		SVFG Statistics
+MaxInDegree         16		SVFG Statistics
+MaxOutDegree        202		SVFG Statistics
+AvgIndInDeg         1		SVFG Statistics
+AvgIndOutDeg        1		SVFG Statistics
+MaxIndInDeg         16		SVFG Statistics
+MaxIndOutDeg        9		SVFG Statistics
+MSSAPhi             0		SVFG Statistics
+Load                52		SVFG Statistics
+Store               489		SVFG Statistics
+#######################################################
+
+*********CallGraph Stats***************
+################ (program : virtual_v1_nv0_30_8.bc)###############
+-------------------------------------------------------
+TotalNode           213		CallGraph Stats
+TotalEdge           58		CallGraph Stats
+TotalCycle          0		CallGraph Stats
+MaxNodeInCycle      0		CallGraph Stats
+NodeInCycle         0		CallGraph Stats
+CalRetPairInCycle   0		CallGraph Stats
+#######################################################
+
+*********SVFG SCC Stat***************
+################ (program : virtual_v1_nv0_30_8.bc)###############
+-------------------------------------------------------
+TotalNode           2167		SVFG SCC Stat
+TotalEdge           2323		SVFG SCC Stat
+TotalCycle          0		SVFG SCC Stat
+MaxNodeInCycle      0		SVFG SCC Stat
+NodeInCycle         0		SVFG SCC Stat
+TotalDirEdge        2137		SVFG SCC Stat
+DirEdgeInCycle      0		SVFG SCC Stat
+TotalIndEdge        186		SVFG SCC Stat
+IndEdgeInCycle      0		SVFG SCC Stat
+EdgeInCycle         0		SVFG SCC Stat
+TotalCallEdge       108		SVFG SCC Stat
+CallEdgeInCycle     0		SVFG SCC Stat
+InsenCallEdge       0		SVFG SCC Stat
+TotalRetEdge        8		SVFG SCC Stat
+RetEdgeInCycle      0		SVFG SCC Stat
+InsenRetEdge        0		SVFG SCC Stat
+#######################################################
+
+*********Demand-Driven Pointer Analysis Statistics***************
+################ (program : virtual_v1_nv0_30_8.bc)###############
+-------------------------------------------------------
+TotalQueryTime      0.001		Demand-Driven Pointer Analysis Statistics
+AvgTimePerQuery     0.001		Demand-Driven Pointer Analysis Statistics
+TotalBKCondTime     0		Demand-Driven Pointer Analysis Statistics
+AvgDPMAtLoc         1.37566		Demand-Driven Pointer Analysis Statistics
+AvgCPtsSize         8		Demand-Driven Pointer Analysis Statistics
+AvgPtsSize          8		Demand-Driven Pointer Analysis Statistics
+IndEdgeSolved       8		Demand-Driven Pointer Analysis Statistics
+PointsToConstPtr    0		Demand-Driven Pointer Analysis Statistics
+PointsToBlkPtr      0		Demand-Driven Pointer Analysis Statistics
+NumOfQuery          1		Demand-Driven Pointer Analysis Statistics
+NumOfOOBQuery       0		Demand-Driven Pointer Analysis Statistics
+NumOfDPM            1765		Demand-Driven Pointer Analysis Statistics
+NumOfSU             27		Demand-Driven Pointer Analysis Statistics
+NumOfStoreSU        27		Demand-Driven Pointer Analysis Statistics
+NumOfStep           593		Demand-Driven Pointer Analysis Statistics
+NumOfStepInCycle    333		Demand-Driven Pointer Analysis Statistics
+MaxDPMAtLoc         8		Demand-Driven Pointer Analysis Statistics
+MaxPathPerQuery     0		Demand-Driven Pointer Analysis Statistics
+MaxCxtPerQuery      1		Demand-Driven Pointer Analysis Statistics
+MaxCPtsSize         8		Demand-Driven Pointer Analysis Statistics
+MaxPtsSize          8		Demand-Driven Pointer Analysis Statistics
+NumOfNullPtr        0		Demand-Driven Pointer Analysis Statistics
+NumOfMustAA         0		Demand-Driven Pointer Analysis Statistics
+NumOfInfePath       0		Demand-Driven Pointer Analysis Statistics
+NumOfStore          489		Demand-Driven Pointer Analysis Statistics
+MemoryUsageVmrss    648		Demand-Driven Pointer Analysis Statistics
+MemoryUsageVmsize   560		Demand-Driven Pointer Analysis Statistics
+#######################################################
+
+
+
+#NumberOfFuncs# 8 ......................
+
+##<ValVar ID: 559
+   %9 = phi void (%class.DD*)* [ %memptr.virtualfn, %memptr.virtual ], [ %memptr.nonvirtualfn, %memptr.nonvirtual ], !dbg !230 { "ln": 202, "cl": 4, "fl": "./MicroBenchmark/virtual_v1_nv0/virtual_v1_nv0_30_8.cpp" at Function { "ln": 201, "file": "./MicroBenchmark/virtual_v1_nv0/virtual_v1_nv0_30_8.cpp" } }> Source Loc: { "ln": 202, "cl": 4, "fl": "./MicroBenchmark/virtual_v1_nv0/virtual_v1_nv0_30_8.cpp" at Function { "ln": 201, "file": "./MicroBenchmark/virtual_v1_nv0/virtual_v1_nv0_30_8.cpp" } }#NumberOfFuncs# 8
+
+Ptr 559 		PointsTo: { 1138 1143 1148 1153 1158 1163 1168 1173 }
+
+!!Target NodeID 1138	 [<_ZN2DD13ff_v_00000000Ev> Source Loc: FIObjVar ID: 1138 (base object)
+Function: 				_ZN2DD13ff_v_00000000Ev
+	          DD::ff_v_00000000() { "ln": 167, "file": "./MicroBenchmark/virtual_v1_nv0/virtual_v1_nv0_30_8.cpp" }] 
+
+!!Target NodeID 1143	 [<_ZN2DD13ff_v_00000001Ev> Source Loc: FIObjVar ID: 1143 (base object)
+Function: 				_ZN2DD13ff_v_00000001Ev
+	          DD::ff_v_00000001() { "ln": 168, "file": "./MicroBenchmark/virtual_v1_nv0/virtual_v1_nv0_30_8.cpp" }] 
+
+!!Target NodeID 1148	 [<_ZN2DD13ff_v_00000002Ev> Source Loc: FIObjVar ID: 1148 (base object)
+Function: 				_ZN2DD13ff_v_00000002Ev
+	          DD::ff_v_00000002() { "ln": 169, "file": "./MicroBenchmark/virtual_v1_nv0/virtual_v1_nv0_30_8.cpp" }] 
+
+!!Target NodeID 1153	 [<_ZN2DD13ff_v_00000003Ev> Source Loc: FIObjVar ID: 1153 (base object)
+Function: 				_ZN2DD13ff_v_00000003Ev
+	          DD::ff_v_00000003() { "ln": 170, "file": "./MicroBenchmark/virtual_v1_nv0/virtual_v1_nv0_30_8.cpp" }] 
+
+!!Target NodeID 1158	 [<_ZN2DD13ff_v_00000004Ev> Source Loc: FIObjVar ID: 1158 (base object)
+Function: 				_ZN2DD13ff_v_00000004Ev
+	          DD::ff_v_00000004() { "ln": 171, "file": "./MicroBenchmark/virtual_v1_nv0/virtual_v1_nv0_30_8.cpp" }] 
+
+!!Target NodeID 1163	 [<_ZN2DD13ff_v_00000005Ev> Source Loc: FIObjVar ID: 1163 (base object)
+Function: 				_ZN2DD13ff_v_00000005Ev
+	          DD::ff_v_00000005() { "ln": 172, "file": "./MicroBenchmark/virtual_v1_nv0/virtual_v1_nv0_30_8.cpp" }] 
+
+!!Target NodeID 1168	 [<_ZN2DD13ff_v_00000006Ev> Source Loc: FIObjVar ID: 1168 (base object)
+Function: 				_ZN2DD13ff_v_00000006Ev
+	          DD::ff_v_00000006() { "ln": 173, "file": "./MicroBenchmark/virtual_v1_nv0/virtual_v1_nv0_30_8.cpp" }] 
+
+!!Target NodeID 1173	 [<_ZN2DD13ff_v_00000007Ev> Source Loc: FIObjVar ID: 1173 (base object)
+Function: 				_ZN2DD13ff_v_00000007Ev
+	          DD::ff_v_00000007() { "ln": 174, "file": "./MicroBenchmark/virtual_v1_nv0/virtual_v1_nv0_30_8.cpp" }] 
+
+0.03user 0.00system 0:00.03elapsed 100%CPU (0avgtext+0avgdata 30484maxresident)k
+0inputs+0outputs (0major+4502minor)pagefaults 0swaps
