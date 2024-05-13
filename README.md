@@ -1,5 +1,18 @@
 # TIPS: Tracking Integer-Pointer Value Flows for C++ Member Function Pointers
 
+
+**ACM Reference Format**
+
+```
+Changwei Zou, Dongjie He, Yulei Sui, and Jingling Xue. FSE 2024. 
+
+TIPS: Tracking Integer-Pointer Value Flows for C++ Member Function Pointers. 
+
+Proc. ACM Softw. Eng. 1, FSE, Article 72 (July 2024), 23 pages. 
+
+https://doi.org/10.1145/3660779
+```
+
 ## 1. How to Build TIPS 
 
 ### 1.1. Download TIPS
