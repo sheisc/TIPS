@@ -12,6 +12,11 @@ Proc. ACM Softw. Eng. 1, FSE, Article 72 (July 2024), 23 pages.
 
 https://doi.org/10.1145/3660779
 ```
+## Overview
+
+|The workflow of Tips|
+|:-------------:|
+| <img src="./Overview.png" width="80%" height="80%"> |
 
 ## 1. How to Build TIPS 
 
