@@ -16,7 +16,7 @@ https://doi.org/10.1145/3660779
 
 |The workflow of Tips|
 |:-------------:|
-| <img src="./Overview.png" width="80%" height="80%"> |
+| <img src="./Overview.png" width="100%" height="100%"> |
 
 ## 1. How to Build TIPS 
 
